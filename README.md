@@ -1,31 +1,59 @@
-## Programador básico até o avançado.
-## Comandos de Decisão
+# 💻 Comandos de Decisão em Java
 
-Comandos de decisão são fluxos de escolha em que o programa deve escolher entre dois ou mais caminhos possíveis.
-## Comandos básicos são:
-  -IF
-  if (condicao) {
-    // código a ser executado se a condição for verdadeira
+Os **comandos de decisão** permitem que um programa escolha entre diferentes caminhos de execução, dependendo das condições apresentadas. Eles são fundamentais para controlar o fluxo lógico de qualquer aplicação.
+
+---
+
+# 📘 Tipos de Comandos de Decisão
+
+## 🔹 **IF**
+
+Usado para executar um bloco de código **somente se a condição for verdadeira**.
+
+```java
+if (condicao) {
+    // código executado se a condição for verdadeira
 }
-******************************************************************************************************************
-  -IF ELSE
-  if (condicao) {
+```
+
+---
+
+## 🔹 **IF / ELSE**
+
+Usado quando existem dois caminhos possíveis.
+
+```java
+if (condicao) {
     // código verdadeiro
 } else {
     // código falso
 }
-******************************************************************************************************************
-  -IF - ELSE IF - ELSE
-  if (condicao1) {
+```
+
+---
+
+## 🔹 **IF / ELSE IF / ELSE**
+
+Usado quando há **múltiplas condições** possíveis.
+
+```java
+if (condicao1) {
     // bloco 1
 } else if (condicao2) {
     // bloco 2
 } else {
     // bloco final
 }
-******************************************************************************************************************
-  -SWITCH CASE
-  switch (variavel) {
+```
+
+---
+
+## 🔹 **SWITCH CASE**
+
+Ideal para comparar uma variável contra **vários valores fixos**.
+
+```java
+switch (variavel) {
     case valor1:
         // código
         break;
@@ -35,9 +63,21 @@ Comandos de decisão são fluxos de escolha em que o programa deve escolher entr
         break;
 
     default:
-        // código se nenhum caso for atendido
+        // executado se nenhum caso for atendido
 }
+```
 
-## Exercícios para praticar com resposta no código disponível.
+---
+
+# 📝 Exercícios para Praticar
+
+Cada exercício deve utilizar **comandos de decisão**. As respostas podem ser implementadas diretamente no código.
+
+
+
+---
+
+📚 **Continue praticando!** Quanto mais você utilizar estruturas condicionais, mais natural elas se tornam no desenvolvimento de aplicações.
+
   
   

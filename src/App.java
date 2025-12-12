@@ -1,6 +1,9 @@
+
+
 public class App {
     public static void main(String[] args) throws Exception {
         
+        /* 
         int nota = 70;
         int media = 60;
         int faltas = 5;
@@ -31,6 +34,8 @@ public class App {
                 break;
             default:
                 System.out.println("Não ganhou nenhuma medalha!");
-        }
+                break;
+            } */
+
     }
 }

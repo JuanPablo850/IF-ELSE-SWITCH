@@ -73,6 +73,31 @@ switch (variavel) {
 
 Cada exercício deve utilizar **comandos de decisão**. As respostas podem ser implementadas diretamente no código.
 
+1. Par ou Ímpar
+
+Peça um número inteiro e informe se ele é par ou ímpar.
+
+2. Maior de idade
+
+Peça a idade e informe se a pessoa é maior ou menor de idade.
+
+3. Número positivo ou negativo
+
+Leia um número e diga se ele é positivo, negativo ou zero.
+
+4. Senha correta
+
+Peça uma senha (ex: 1234) e mostre:
+
+“Acesso permitido”
+
+“Acesso negado”
+
+5. Desconto simples
+
+Peça um valor.
+Se o valor for maior que 100, aplique 10% de desconto, senão não aplique desconto.
+
 
 
 ---
